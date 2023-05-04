@@ -1,0 +1,8 @@
+#deplacelogin, #deplacesign{
+    position: relative;
+    left: 400px;
+}
+.nav-link:hover{
+    background-color: rgb(220, 234, 245) ;color:black;
+    }
+
