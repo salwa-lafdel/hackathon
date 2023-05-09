@@ -14,7 +14,7 @@
      <!-- navbar -->
      <div class="conatainer-fluid " >
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
-      <div class="container-fluid  " style="background-color: cadetblue;">
+      <div class="container-fluid  " style="background-color:green;">
         <a class="navbar-brand " href="index.html" style="color: orangered;font-family: Georgia, 'Times New Roman', Times, serif;font-size: 25px;" >Your vols</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -22,22 +22,22 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active "  href="vols.html">vols</a>
+              <a class="nav-link active text-white"  href="vols.html">vols</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="hotel.html">Hotels</a>
+              <a class="nav-link  text-white" href="hotel.html">Hotels</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="volhotel.html">vol+Hotel</a>
+              <a class="nav-link text-white " href="volhotel.html">vol+Hotel</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="index.html"> Offers</a>
+                <a class="nav-link text-white " href="index.html"> Offers</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="contact.html" >contact</a>
+                <a class="nav-link text-white " href="contact.html" >contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " id="deplacesign" href="signup.html">SignUp</a>
+                <a class="nav-link text-white" id="deplacesign" href="signup.html">SignUp</a>
               </li>
               <div class="deplacelogo">
                 <a href="https://www.facebook.com" target="_blank" title="Facebook"><span class="fa fa-facebook-square fa-2x ga-right"></span></a>
@@ -73,6 +73,11 @@
               function myGreeting() {
                 document.getElementById("demo").innerHTML = "Dépechez-vous les prix vont augumenter!"
               }
+              const myTimeout2 = setTimeout(myGreeting1, 7000);
+
+function myGreeting1() {
+  alert("Nous ne pouvons maintenir les prix que pour une durée limitée .Réservez avant qu'il ne soit trop tard !")
+}
               </script>
               <h1 style="color: white;">les Vols</h1>
               <h3>Réservez votre billet d'avion pas cher</h3>
