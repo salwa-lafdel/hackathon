@@ -201,10 +201,7 @@
     background-color:orangered;
     border-radius: 30%;
     }
-    .nav-link{
-        position: relative;
-        bottom: 9px;
-    }
+    
 
 /* header -------------------------------------------------------------------------------------------*/
 .header{
@@ -311,4 +308,15 @@ button{
     text-align: center;
 }
 
+
+.classblog
+{  
+    transition:all 0.3s ease; 
+  
+   
+}
+.card:hover
+{
+   transform: scale(1.2);
+}
 
