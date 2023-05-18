@@ -189,7 +189,7 @@
 }
 .deplacelogo{
     position: relative;
-    left: 700px;
+    left: 600px;
     top: 3px;
     color: #000!important;
 }
@@ -270,26 +270,24 @@ button{
 /*offers*/
 .team{
     position: relative;
-    left: 5%;
+    margin-left: 5%;
 }
 .team .item{
     position: relative;
-    
-
 }
 .team .des{
     background: #f97300;
     color: #fff;
     text-align: center;
     border-bottom-left-radius: 93%;
-    width: 250px;
+    width: 230px;
     box-shadow: 7px 7px 7px rgb(205, 112, 50);
 }
 .team .item:hover .des{
     height: 100%;
     background: #f973007d;
     position: absolute;
-    width: 250px;
+    width: 230px;
     padding: 5em;
     bottom: 0;
     border-bottom-left-radius: 0;
@@ -301,7 +299,7 @@ button{
 }
 .PRIME{
     position: relative;
-    left: 10%;
+    margin-left: 10%;
 }
 /*-----------------contact--------------*/
 .plaecontact{
@@ -320,3 +318,7 @@ button{
    transform: scale(1.2);
 }
 
+.classblog {
+  position: relative;
+  margin-left: 90px;
+}
